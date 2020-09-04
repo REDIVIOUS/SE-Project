@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/logs/main",
+    "pages/counter/main",
+    "pages/wronged/main",
+    "pages/study/main",
+    "pages/class/main",
+    "pages/exam/main",
+    "pages/login/main",
+    "pages/community/main",
+    "pages/result/main",
+    "pages/bulletin/main",
+    "pages/comment/main",
+    "pages/Answer/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#178cbb",
+    "navigationBarTitleText": "儿童学习",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#f4f4f4"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/main",
+        "text": "回答题目",
+        "iconPath": "static/tabs/report-card-80.png",
+        "selectedIconPath": "static/tabs/report-card-80.png"
+      },
+      {
+        "pagePath": "pages/wronged/main",
+        "text": "错题本",
+        "iconPath": "static/tabs/book-100.png",
+        "selectedIconPath": "static/tabs/book-100.png"
+      },
+      {
+        "pagePath": "pages/login/main",
+        "text": "我的账号",
+        "iconPath": "static/tabs/user-unlogin.png",
+        "selectedIconPath": "static/tabs/user-unlogin.png"
+      }
+    ],
+    "position": "bottom"
+  }
+}
